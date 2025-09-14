@@ -7,7 +7,6 @@ public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> opts) : base(opts) { }
 
-
     public DbSet<City> Cities => Set<City>();
     public DbSet<Department> Departments => Set<Department>();
     public DbSet<Student> Students => Set<Student>();

@@ -1,4 +1,5 @@
 using SchoolWebApi.Domain.Common;
+
 namespace SchoolWebApi.Domain.Entities;
 
 public class Student : BaseEntity

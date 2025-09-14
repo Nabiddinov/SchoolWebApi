@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using SchoolWebApi.Application.Dtos;
 using SchoolWebApi.Application.Services.TeacherService;
 
-
 namespace SchoolWebApi.Controllers;
 
 [ApiController]
