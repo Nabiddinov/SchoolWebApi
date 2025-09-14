@@ -1,0 +1,17 @@
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/bin/Debug/net9.0/SchoolWebApi.Infrastructure.deps.json
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/bin/Debug/net9.0/SchoolWebApi.Infrastructure.runtimeconfig.json
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/bin/Debug/net9.0/SchoolWebApi.Infrastructure.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/bin/Debug/net9.0/SchoolWebApi.Infrastructure.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/bin/Debug/net9.0/SchoolWebApi.Domain.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/bin/Debug/net9.0/SchoolWebApi.Domain.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWebApi.Infrastructure.csproj.AssemblyReference.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWebApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWebApi.Infrastructure.AssemblyInfoInputs.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWebApi.Infrastructure.AssemblyInfo.cs
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWebApi.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWe.94C62109.Up2Date
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWebApi.Infrastructure.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/refint/SchoolWebApi.Infrastructure.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWebApi.Infrastructure.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/SchoolWebApi.Infrastructure.genruntimeconfig.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Infrastructure/obj/Debug/net9.0/ref/SchoolWebApi.Infrastructure.dll

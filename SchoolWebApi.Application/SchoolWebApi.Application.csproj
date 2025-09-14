@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SchoolWebApi.Domain\SchoolWebApi.Domain.csproj" />
+      <ProjectReference Include="..\SchoolWebApi.Infrastructure\SchoolWebApi.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

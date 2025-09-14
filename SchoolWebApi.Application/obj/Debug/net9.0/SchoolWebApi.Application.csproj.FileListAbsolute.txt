@@ -1,0 +1,17 @@
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/bin/Debug/net9.0/SchoolWebApi.Application.deps.json
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/bin/Debug/net9.0/SchoolWebApi.Application.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/bin/Debug/net9.0/SchoolWebApi.Application.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/bin/Debug/net9.0/SchoolWebApi.Domain.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/bin/Debug/net9.0/SchoolWebApi.Infrastructure.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/bin/Debug/net9.0/SchoolWebApi.Domain.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/bin/Debug/net9.0/SchoolWebApi.Infrastructure.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.csproj.AssemblyReference.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.AssemblyInfoInputs.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.AssemblyInfo.cs
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.csproj.CoreCompileInputs.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWe.E28E3BB4.Up2Date
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/refint/SchoolWebApi.Application.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/ref/SchoolWebApi.Application.dll

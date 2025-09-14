@@ -1,0 +1,11 @@
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/bin/Debug/net9.0/SchoolWebApi.Domain.deps.json
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/bin/Debug/net9.0/SchoolWebApi.Domain.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/bin/Debug/net9.0/SchoolWebApi.Domain.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/SchoolWebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/SchoolWebApi.Domain.AssemblyInfoInputs.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/SchoolWebApi.Domain.AssemblyInfo.cs
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/SchoolWebApi.Domain.csproj.CoreCompileInputs.cache
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/SchoolWebApi.Domain.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/refint/SchoolWebApi.Domain.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/SchoolWebApi.Domain.pdb
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/ref/SchoolWebApi.Domain.dll
