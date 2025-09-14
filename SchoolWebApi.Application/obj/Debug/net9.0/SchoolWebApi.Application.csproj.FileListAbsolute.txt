@@ -15,3 +15,4 @@
 /Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/refint/SchoolWebApi.Application.dll
 /Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.pdb
 /Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/ref/SchoolWebApi.Application.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Application/obj/Debug/net9.0/SchoolWebApi.Application.sourcelink.json

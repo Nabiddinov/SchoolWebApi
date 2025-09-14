@@ -9,3 +9,4 @@
 /Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/refint/SchoolWebApi.Domain.dll
 /Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/SchoolWebApi.Domain.pdb
 /Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/ref/SchoolWebApi.Domain.dll
+/Users/a1234/RiderProjects/SchoolWebApi/SchoolWebApi.Domain/obj/Debug/net9.0/SchoolWebApi.Domain.sourcelink.json
