@@ -1,5 +1,5 @@
-using SchoolWebApi.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using SchoolWebApi.Domain.Entities;
 
 namespace SchoolWebApi.Infrastructure.Data;
 
@@ -12,16 +12,14 @@ public class AppDbContext : DbContext
     public DbSet<Student> Students => Set<Student>();
     public DbSet<Teacher> Teachers => Set<Teacher>();
     public DbSet<Subject> Subjects => Set<Subject>();
-    public DbSet<TeacherSubject> TeachersSubjects => Set<TeacherSubject>();
-    public DbSet<StudentSubject> StudentsSubjects => Set<StudentSubject>();
-
+    public DbSet<TeacherSubject> TeacherSubjects => Set<TeacherSubject>();
+    public DbSet<StudentSubject> StudentSubjects => Set<StudentSubject>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
 
-
-        modelBuilder.Entity<TeacherSubject>().HasIndex(ts => new { ts.TeacherId, ts.SubjectId }).IsUnique();
-        modelBuilder.Entity<StudentSubject>().HasIndex(ss => new { ss.StudentId, ss.SubjectId }).IsUnique();
+        // Barcha konfiguratsiyalarni avtomatik ulash
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
     }
 }

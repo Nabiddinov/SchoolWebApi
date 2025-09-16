@@ -12,7 +12,7 @@ using SchoolWebApi.Infrastructure.Data;
 namespace SchoolWebApi.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250914035906_InitialCreate")]
+    [Migration("20250916165350_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -44,11 +44,12 @@ namespace SchoolWebApi.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cities");
+                    b.ToTable("Cities", (string)null);
                 });
 
             modelBuilder.Entity("SchoolWebApi.Domain.Entities.Department", b =>
@@ -111,7 +112,8 @@ namespace SchoolWebApi.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.HasKey("Id");
 
@@ -119,7 +121,7 @@ namespace SchoolWebApi.Infrastructure.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.ToTable("Students");
+                    b.ToTable("Students", (string)null);
                 });
 
             modelBuilder.Entity("SchoolWebApi.Domain.Entities.StudentSubject", b =>
@@ -140,7 +142,7 @@ namespace SchoolWebApi.Infrastructure.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<decimal>("Mark")
-                        .HasColumnType("numeric");
+                        .HasColumnType("decimal(5,2)");
 
                     b.Property<int>("StudentId")
                         .HasColumnType("integer");
@@ -155,7 +157,7 @@ namespace SchoolWebApi.Infrastructure.Migrations
                     b.HasIndex("StudentId", "SubjectId")
                         .IsUnique();
 
-                    b.ToTable("StudentsSubjects");
+                    b.ToTable("StudentSubjects", (string)null);
                 });
 
             modelBuilder.Entity("SchoolWebApi.Domain.Entities.Subject", b =>
@@ -180,11 +182,12 @@ namespace SchoolWebApi.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Subjects");
+                    b.ToTable("Subjects", (string)null);
                 });
 
             modelBuilder.Entity("SchoolWebApi.Domain.Entities.Teacher", b =>
@@ -215,13 +218,14 @@ namespace SchoolWebApi.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CityId");
 
-                    b.ToTable("Teachers");
+                    b.ToTable("Teachers", (string)null);
                 });
 
             modelBuilder.Entity("SchoolWebApi.Domain.Entities.TeacherSubject", b =>
@@ -254,7 +258,7 @@ namespace SchoolWebApi.Infrastructure.Migrations
                     b.HasIndex("TeacherId", "SubjectId")
                         .IsUnique();
 
-                    b.ToTable("TeachersSubjects");
+                    b.ToTable("TeacherSubjects", (string)null);
                 });
 
             modelBuilder.Entity("SchoolWebApi.Domain.Entities.Student", b =>
@@ -262,13 +266,13 @@ namespace SchoolWebApi.Infrastructure.Migrations
                     b.HasOne("SchoolWebApi.Domain.Entities.City", "City")
                         .WithMany()
                         .HasForeignKey("CityId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("SchoolWebApi.Domain.Entities.Department", "Department")
                         .WithMany()
                         .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("City");
@@ -300,7 +304,7 @@ namespace SchoolWebApi.Infrastructure.Migrations
                     b.HasOne("SchoolWebApi.Domain.Entities.City", "City")
                         .WithMany()
                         .HasForeignKey("CityId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("City");
